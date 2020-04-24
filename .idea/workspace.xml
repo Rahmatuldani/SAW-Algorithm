@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb764695-9927-4cd3-9bee-0c11eb4ed256" name="Default Changelist" comment="" />
+    <list default="true" id="bb764695-9927-4cd3-9bee-0c11eb4ed256" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/view/vAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/view/vUtama.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/vAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/vUtama.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +29,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aO6OLJQAzZpHplDbuVn5LZ9ExG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -74,33 +94,36 @@
       <option name="presentableId" value="Default" />
       <updated>1586594259328</updated>
       <workItem from="1586594261192" duration="8976000" />
+      <workItem from="1586610598423" duration="455000" />
+      <workItem from="1586753407090" duration="5000" />
+      <workItem from="1587707678722" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1586595149232">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586595149232" />
-    <state width="1492" height="224" key="GridCell.Tab.0.bottom" timestamp="1586603485306">
+    <state width="1492" height="224" key="GridCell.Tab.0.bottom" timestamp="1587710428159">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586603485306" />
-    <state width="1492" height="224" key="GridCell.Tab.0.center" timestamp="1586603485304">
+    <state width="1492" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
+    <state width="1492" height="224" key="GridCell.Tab.0.center" timestamp="1587710428159">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586603485304" />
-    <state width="1492" height="224" key="GridCell.Tab.0.left" timestamp="1586603485304">
+    <state width="1492" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
+    <state width="1492" height="224" key="GridCell.Tab.0.left" timestamp="1587710428159">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586603485304" />
-    <state width="1492" height="224" key="GridCell.Tab.0.right" timestamp="1586603485305">
+    <state width="1492" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
+    <state width="1492" height="224" key="GridCell.Tab.0.right" timestamp="1587710428159">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586603485305" />
+    <state width="1492" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1586594298526">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
