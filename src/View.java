@@ -6,32 +6,26 @@ import java.awt.event.ActionListener;
 public class View extends JFrame implements ActionListener {
     Controller controller;
 
-    JScrollPane scrollPane, scrollPane1;
-    JTable table, table1;
-    JButton bAdd, bEdit, bDelete, bDeleteAll;
+    JScrollPane scrollPane;
+    JTable table;
+    JButton bAdd, bEdit, bDelete, bDeleteAll, bHasil;
 
-    Object[][] data, data1;
+    Object[][] data;
 
     public View(){
         setTitle("Pemilihan apartemen dengan metode SAW");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
-        setSize(1480,480);
+        setSize(1080,480);
         setLocationRelativeTo(null);
         setLayout(null);
-
         controller = new Controller();
 
         String[] column = {"Nama", "Lokasi", "Harga", "Jarak", "Luas", "Keamanan", "Kebersihan"};
-        String[] column1 = {"Nama", "Prioritas"};
         data = new Object[50][8];
-        data1 = new Object[50][2];
-        data = controller.getData();
-        data1 = controller.getData1();
+        data = controller.data;
         table = new JTable(data,column);
-        table1 = new JTable(data1,column1);
         scrollPane = new JScrollPane(table);
-        scrollPane1 = new JScrollPane(table1);
 
         table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         table.getColumnModel().getColumn(0).setPreferredWidth(180);
@@ -45,38 +39,52 @@ public class View extends JFrame implements ActionListener {
         bEdit = new JButton("Edit");
         bDelete = new JButton("Hapus");
         bDeleteAll = new JButton("Hapus Semua");
+        bHasil = new JButton("Hasil");
 
         bAdd.addActionListener(this);
         bEdit.addActionListener(this);
         bDeleteAll.addActionListener(this);
         bDelete.addActionListener(this);
-
-        JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(4,1));
-        panel.add(bAdd);
-        panel.add(bEdit);
-        panel.add(bDelete);
-        panel.add(bDeleteAll);
+        bHasil.addActionListener(this);
 
         add(scrollPane);
-        add(panel);
-        add(scrollPane1);
+        add(bAdd);
+        add(bEdit);
+        add(bDelete);
+        add(bDeleteAll);
+        add(bHasil);
 
         scrollPane.setBounds(20,20,810,400);
-        panel.setBounds(880,100,150,200);
-        scrollPane1.setBounds(1100,20,350,400);
+        bAdd.setBounds(880,40,120,30);
+        bEdit.setBounds(880,100,120,30);
+        bDelete.setBounds(880,160,120,30);
+        bDeleteAll.setBounds(880,220,120,30);
+        bHasil.setBounds(880,280,120,30);
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == bAdd){
-            new
+            new Add();
         }
         if (actionEvent.getSource() == bEdit){
+            new Edit();
         }
         if (actionEvent.getSource() == bDelete){
+            new Delete();
         }
         if (actionEvent.getSource() == bDeleteAll){
+            int p = JOptionPane.showConfirmDialog(null,"Yakin ingin menghapus semua data?","Delete All",JOptionPane.YES_NO_OPTION);
+            switch (p) {
+                case JOptionPane.YES_OPTION :
+                    break;
+
+                case JOptionPane.NO_OPTION :
+                    break;
+            }
+        }
+        if (actionEvent.getSource() == bHasil){
+            new Hasil();
         }
     }
 }

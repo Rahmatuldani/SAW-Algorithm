@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb764695-9927-4cd3-9bee-0c11eb4ed256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DeleteAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hasil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/view/vAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/view/vUtama.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/vAdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/vUtama.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeleteAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +41,41 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../praktikum/Belajar/src/Test2/Awal.java" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../praktikum/Belajar/src/Test3/View.java" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Add" />
+      <module name="Project SCPK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Delete" />
+      <module name="Project SCPK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Edit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Edit" />
+      <module name="Project SCPK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hasil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hasil" />
+      <module name="Project SCPK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Project SCPK" />
@@ -59,27 +86,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="view.vAdd" />
-      <module name="Project SCPK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.vAdd" />
+      <item itemvalue="Application.Add" />
+      <item itemvalue="Application.Edit" />
+      <item itemvalue="Application.Delete" />
+      <item itemvalue="Application.Hasil" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.vAdd" />
+        <item itemvalue="Application.Hasil" />
+        <item itemvalue="Application.Delete" />
+        <item itemvalue="Application.Edit" />
+        <item itemvalue="Application.Add" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +116,10 @@
       <workItem from="1586594261192" duration="8976000" />
       <workItem from="1586610598423" duration="455000" />
       <workItem from="1586753407090" duration="5000" />
-      <workItem from="1587707678722" duration="2838000" />
+      <workItem from="1587707678722" duration="3042000" />
+      <workItem from="1587804849337" duration="168000" />
+      <workItem from="1588660031487" duration="1254000" />
+      <workItem from="1588662358362" duration="4337000" />
     </task>
     <servers />
   </component>
@@ -104,29 +127,33 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1586595149232">
+    <state x="654" y="295" key="#Notifications" timestamp="1587804867275">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1586595149232" />
-    <state width="1492" height="224" key="GridCell.Tab.0.bottom" timestamp="1587710428159">
+    <state x="654" y="295" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1587804867275" />
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1588668329152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
-    <state width="1492" height="224" key="GridCell.Tab.0.center" timestamp="1587710428159">
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588668329152" />
+    <state width="1492" height="224" key="GridCell.Tab.0.bottom" timestamp="1588669010376">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
-    <state width="1492" height="224" key="GridCell.Tab.0.left" timestamp="1587710428159">
+    <state width="1492" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588669010376" />
+    <state width="1492" height="224" key="GridCell.Tab.0.center" timestamp="1588669010375">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
-    <state width="1492" height="224" key="GridCell.Tab.0.right" timestamp="1587710428159">
+    <state width="1492" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588669010375" />
+    <state width="1492" height="224" key="GridCell.Tab.0.left" timestamp="1588669010373">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1587710428159" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1586594298526">
+    <state width="1492" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588669010373" />
+    <state width="1492" height="224" key="GridCell.Tab.0.right" timestamp="1588669010375">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586594298526" />
+    <state width="1492" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588669010375" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1587805000005">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1587805000005" />
   </component>
 </project>

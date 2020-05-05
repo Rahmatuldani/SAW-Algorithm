@@ -1,9 +1,11 @@
 public class Controller {
-    Model model = new Model();
-    private Object[][] data, data1;
+    Model model;
+    protected Object[][] data, data1;
 
     public Controller(){
         model = new Model();
+        this.data = model.data;
+        this.data1 = model.data1;
     }
 
     public Object[][] getData() {

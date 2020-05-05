@@ -1,5 +1,5 @@
 public class Model {
-    private Object[][] data, data1;
+    protected Object[][] data, data1;
 
     public Model(){
         data = new Object[50][8];
