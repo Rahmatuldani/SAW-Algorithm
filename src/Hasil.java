@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Hasil extends JFrame implements ActionListener {
-    Controller controller;
+    Controller controller = new Controller();
 
     JScrollPane scrollPane;
     JTable table;
@@ -18,10 +18,9 @@ public class Hasil extends JFrame implements ActionListener {
         setSize(480,530);
         setLocationRelativeTo(null);
         setLayout(null);
-        controller = new Controller();
+        kembali.addActionListener(this);
 
         String[] column = {"Nama", "Prioritas"};
-        data = new Object[50][2];
         data = controller.data1;
         table = new JTable(data,column);
         scrollPane = new JScrollPane(table);
@@ -36,6 +35,7 @@ public class Hasil extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == kembali){
+            controller.Delete_all1();
             setVisible(false);
             new View();
         }

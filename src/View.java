@@ -4,13 +4,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class View extends JFrame implements ActionListener {
-    Controller controller;
+    Controller controller = new Controller();
 
     JScrollPane scrollPane;
     JTable table;
     JButton bAdd, bEdit, bDelete, bDeleteAll, bHasil;
 
-    Object[][] data;
+    protected Object[][] data;
 
     public View(){
         setTitle("Pemilihan apartemen dengan metode SAW");
@@ -19,10 +19,8 @@ public class View extends JFrame implements ActionListener {
         setSize(1080,480);
         setLocationRelativeTo(null);
         setLayout(null);
-        controller = new Controller();
 
         String[] column = {"Nama", "Lokasi", "Harga", "Jarak", "Luas", "Keamanan", "Kebersihan"};
-        data = new Object[50][8];
         data = controller.data;
         table = new JTable(data,column);
         scrollPane = new JScrollPane(table);
@@ -77,6 +75,8 @@ public class View extends JFrame implements ActionListener {
             int p = JOptionPane.showConfirmDialog(null,"Yakin ingin menghapus semua data?","Delete All",JOptionPane.YES_NO_OPTION);
             switch (p) {
                 case JOptionPane.YES_OPTION :
+                    controller.Delete_all();
+                    new View();
                     break;
 
                 case JOptionPane.NO_OPTION :
@@ -84,6 +84,7 @@ public class View extends JFrame implements ActionListener {
             }
         }
         if (actionEvent.getSource() == bHasil){
+            controller.Hasil();
             new Hasil();
         }
     }

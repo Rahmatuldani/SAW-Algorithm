@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Delete extends JFrame implements ActionListener {
-    Controller controller;
+    Controller controller = new Controller();
 
     JLabel lnama;
     JTextField fnama;
@@ -16,7 +16,6 @@ public class Delete extends JFrame implements ActionListener {
         setSize(420,160);
         setLayout(null);
         setLocationRelativeTo(null);
-        controller = new Controller();
 
         lnama = new JLabel("Nama");
         fnama = new JTextField(120);
@@ -39,6 +38,7 @@ public class Delete extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == bDelete){
+            controller.Delete(fnama.getText());
             setVisible(false);
             new View();
         }

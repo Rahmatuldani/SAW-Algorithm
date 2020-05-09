@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb764695-9927-4cd3-9bee-0c11eb4ed256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hasil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Add.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Edit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Edit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Hasil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Hasil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project SCPK/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project SCPK/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeleteAll.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Edit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hasil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hasil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
     </list>
@@ -39,9 +43,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../praktikum/Belajar/src/Test3/View.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../praktikum/Belajar/src/Test3/Model.java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -119,7 +124,10 @@
       <workItem from="1587707678722" duration="3042000" />
       <workItem from="1587804849337" duration="168000" />
       <workItem from="1588660031487" duration="1254000" />
-      <workItem from="1588662358362" duration="4337000" />
+      <workItem from="1588662358362" duration="8649000" />
+      <workItem from="1588766402315" duration="882000" />
+      <workItem from="1588944628791" duration="8000" />
+      <workItem from="1589012217818" duration="13870000" />
     </task>
     <servers />
   </component>
@@ -131,29 +139,37 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="654" y="295" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1587804867275" />
-    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1588668329152">
+    <state x="206" y="274" key="#SQL_Dialects" timestamp="1589014574959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588668329152" />
-    <state width="1492" height="224" key="GridCell.Tab.0.bottom" timestamp="1588669010376">
+    <state x="206" y="274" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1589014574959" />
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1589014835887">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588669010376" />
-    <state width="1492" height="224" key="GridCell.Tab.0.center" timestamp="1588669010375">
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589014835887" />
+    <state width="1492" height="224" key="GridCell.Tab.0.bottom" timestamp="1589032773925">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588669010375" />
-    <state width="1492" height="224" key="GridCell.Tab.0.left" timestamp="1588669010373">
+    <state width="1492" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589032773925" />
+    <state width="1492" height="224" key="GridCell.Tab.0.center" timestamp="1589032773925">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588669010373" />
-    <state width="1492" height="224" key="GridCell.Tab.0.right" timestamp="1588669010375">
+    <state width="1492" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589032773925" />
+    <state width="1492" height="224" key="GridCell.Tab.0.left" timestamp="1589032773924">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588669010375" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1587805000005">
+    <state width="1492" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589032773924" />
+    <state width="1492" height="224" key="GridCell.Tab.0.right" timestamp="1589032773925">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1587805000005" />
+    <state width="1492" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589032773925" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1588766997767">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588766997767" />
+    <state x="499" y="207" key="extract.method.dialog" timestamp="1589012526859">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="207" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1589012526859" />
   </component>
 </project>

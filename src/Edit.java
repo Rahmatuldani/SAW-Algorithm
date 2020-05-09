@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Edit extends JFrame implements ActionListener {
-    Controller controller;
+    Controller controller = new Controller();
 
     JLabel lnama, llokasi, lharga, ljarak, lluas, lkeamanan, lkebersihan;
     JTextField fnama, flokasi, fharga, fjarak, fluas, fkeamanan, fkebersihan;
@@ -18,17 +18,16 @@ public class Edit extends JFrame implements ActionListener {
         setSize(420,480);
         setLayout(null);
         setLocationRelativeTo(null);
-        controller = new Controller();
 
         lnama = new JLabel("Nama ");
         llokasi = new JLabel("Lokasi");
         lharga = new JLabel("Harga");
-        ljarak = new JLabel("Jarak");
-        lluas = new JLabel("Luas");
-        lkeamanan = new JLabel("Keamanan");
-        lkebersihan = new JLabel("Kebersihan");
+        ljarak = new JLabel("Jarak (m)");
+        lluas = new JLabel("Luas (m2)");
+        lkeamanan = new JLabel("Keamanan (1-10)");
+        lkebersihan = new JLabel("Kebersihan (1-10)");
 
-        bAdd = new JButton("Simpan");
+        bAdd = new JButton("Edit");
         bCancel = new JButton("Cancel");
         bCari = new JButton("Cari");
         bAdd.addActionListener(this);
@@ -83,10 +82,25 @@ public class Edit extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == bCari){
-            setVisible(false);
-            new View();
+            controller.Cari(fnama.getText());
+            data = controller.cari;
+
+            flokasi.setText(String.valueOf(data[0][1]));
+            fharga.setText(String.valueOf(data[0][2]));
+            fjarak.setText(String.valueOf(data[0][3]));
+            fluas.setText(String.valueOf(data[0][4]));
+            fkeamanan.setText(String.valueOf(data[0][5]));
+            fkebersihan.setText(String.valueOf(data[0][6]));
         }
         if (actionEvent.getSource() == bAdd){
+            data[0][0] = fnama.getText();
+            data[0][1] = flokasi.getText();
+            data[0][2] = Integer.parseInt(fharga.getText());
+            data[0][3] = Integer.parseInt(fjarak.getText());
+            data[0][4] = Integer.parseInt(fluas.getText());
+            data[0][5] = Integer.parseInt(fkeamanan.getText());
+            data[0][6] = Integer.parseInt(fkebersihan.getText());
+            controller.Update(data);
             setVisible(false);
             new View();
         }

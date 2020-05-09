@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Add extends JFrame implements ActionListener {
-    Controller controller;
+    Controller controller = new Controller();
 
     JLabel lnama, llokasi, lharga, ljarak, lluas, lkeamanan, lkebersihan;
     JTextField fnama, flokasi, fharga, fjarak, fluas, fkeamanan, fkebersihan;
@@ -18,15 +18,14 @@ public class Add extends JFrame implements ActionListener {
         setSize(420,420);
         setLayout(null);
         setLocationRelativeTo(null);
-        controller = new Controller();
 
         lnama = new JLabel("Nama ");
         llokasi = new JLabel("Lokasi");
         lharga = new JLabel("Harga");
-        ljarak = new JLabel("Jarak");
-        lluas = new JLabel("Luas");
-        lkeamanan = new JLabel("Keamanan");
-        lkebersihan = new JLabel("Kebersihan");
+        ljarak = new JLabel("Jarak (m)");
+        lluas = new JLabel("Luas (m2)");
+        lkeamanan = new JLabel("Keamanan (1-10)");
+        lkebersihan = new JLabel("Kebersihan (1-10)");
 
         bAdd = new JButton("Simpan");
         bCancel = new JButton("Cancel");
@@ -74,11 +73,20 @@ public class Add extends JFrame implements ActionListener {
         fkebersihan.setBounds(140,260,80,30);
         bAdd.setBounds(110,320,80,30);
         bCancel.setBounds(210,320,80,30);
+
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == bAdd){
+            data[0][0] = fnama.getText();
+            data[0][1] = flokasi.getText();
+            data[0][2] = Integer.parseInt(fharga.getText());
+            data[0][3] = Integer.parseInt(fjarak.getText());
+            data[0][4] = Integer.parseInt(fluas.getText());
+            data[0][5] = Integer.parseInt(fkeamanan.getText());
+            data[0][6] = Integer.parseInt(fkebersihan.getText());
+            controller.Simpan(data);
             setVisible(false);
             new View();
         }
