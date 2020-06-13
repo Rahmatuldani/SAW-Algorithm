@@ -63,12 +63,15 @@ public class View extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == bAdd){
+            setVisible(false);
             new Add();
         }
         if (actionEvent.getSource() == bEdit){
+            setVisible(false);
             new Edit();
         }
         if (actionEvent.getSource() == bDelete){
+            setVisible(false);
             new Delete();
         }
         if (actionEvent.getSource() == bDeleteAll){
